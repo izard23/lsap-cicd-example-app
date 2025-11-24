@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('../app');  // 你的 app.js 在專案根目錄
+const app = require('../app');
 
 describe('GET /time', () => {
   it('should return ISO formatted time', async () => {

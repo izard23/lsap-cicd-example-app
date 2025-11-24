@@ -1,6 +1,6 @@
 // app.test.js
 const request = require("supertest");
-const app = require("./app"); // Import the app logic
+const app = require("../app"); // Import the app logic
 
 let server; // Define a variable to hold the server instance
 
